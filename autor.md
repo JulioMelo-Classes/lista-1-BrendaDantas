@@ -2,9 +2,9 @@
 
 Preencha os dados abaixo para identificar a autoria do trabalho.
 
-- Nome: *\<Brenda Dantas>*
-- Email: *\<brenda.stephaniedantas@gmail.com>*
-- Turma: *\<T01>*
+- Nome: Brenda Dantas
+- Email: brenda.stephaniedantas@gmail.com
+- Turma: T01
 
 # Questões Finalizadas
 
