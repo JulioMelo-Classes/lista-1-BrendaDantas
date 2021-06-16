@@ -1,9 +1,6 @@
 #include <iostream>
-using namespace std;
 using std::cin;
 using std::cout;
-
-const int SIZE = 5; // input size.
 
 int main(void)
 {
@@ -20,8 +17,7 @@ int main(void)
 
   }
 
-  cout << cont1 << endl;
+  cout << cont1;
 
-    // TODO: Adicione aqui seu código.
     return 0;
 }
