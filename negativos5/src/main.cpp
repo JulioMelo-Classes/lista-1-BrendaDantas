@@ -16,7 +16,6 @@ int main(void)
     }
 
   }
-
   cout << cont1;
 
     return 0;
