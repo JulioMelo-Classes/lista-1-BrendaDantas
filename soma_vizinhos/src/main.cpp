@@ -40,7 +40,6 @@ int main (void)
     }
   }
 
-  cout << soma << endl;
 
   return 0;
 }
