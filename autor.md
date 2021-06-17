@@ -3,7 +3,7 @@
 Preencha os dados abaixo para identificar a autoria do trabalho.
 
 - Nome: Brenda Dantas
-- Email: brenda.stephaniedantas@gmail.com
+- Email: brenda.dantas.018@ufrn.edu.br
 - Turma: T01
 
 # Questões Finalizadas
