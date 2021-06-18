@@ -22,7 +22,7 @@ std::pair<int,int> min_max( int V[], size_t n )
         indicemaior = cont;
       }
 
-      else if (V[cont] <= menor)
+      else if (V[cont] < menor)
       {
         menor = V[cont];
         indicemenor = cont;
