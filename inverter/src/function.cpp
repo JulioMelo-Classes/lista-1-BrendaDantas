@@ -13,8 +13,8 @@ void reverse( std::array< std::string, SIZE > & arr)
     for (int cont2 = arr.size(); cont2 > 0; cont2--) 
     {
       aux1 = arr.at(cont1);
-      aux2 = arr.at(cont2);
-      arr.at(cont1).swap(arr.at(cont2));
+      aux2 = arr.at(cont2-1);
+      arr.at(cont1).swap(arr.at(cont2-1));
     }
   }
 }
