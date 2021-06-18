@@ -9,15 +9,17 @@ std::pair<int,int> min_max( int V[], size_t n )
 
   for (int cont = 0; cont < n; cont++)
   {
-    if (V[cont] > maior) 
+    if (V[cont] >= maior) 
     {
       maior = V[cont];
       indicemaior = cont;
     }
 
-    else
+    else if (V[cont] <= menor)
+    {
       menor = V[cont];
       indicemenor = cont;
+    }
   }
 
     return {indicemenor, indicemaior};
