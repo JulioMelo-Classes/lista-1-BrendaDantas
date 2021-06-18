@@ -20,5 +20,5 @@ std::pair<int,int> min_max( int V[], size_t n )
       indicemenor = cont;
   }
 
-    return {menor, maior};
+    return {indicemenor, indicemaior};
 }
