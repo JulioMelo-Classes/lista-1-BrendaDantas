@@ -11,9 +11,7 @@ std::vector<unsigned int> fib_below_n( unsigned int n )
     {
       sequencia.push_back(1);
     }
-
     sequencia.push_back(sequencia.at(cont-1) + sequencia.at(cont-2));
   }
-
     return sequencia;
 }
