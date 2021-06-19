@@ -8,7 +8,6 @@ std::vector<unsigned int> fib_below_n( unsigned int n )
   if(n == 1){
     return sequencia;  
   }
-
   for (int cont = 0; cont < n; cont++) 
   {
     if (sequencia.size() >=1 && sequencia.back() >= n)
