@@ -14,8 +14,12 @@
  */
 int * filter( int * first, int * last )
 {
-    // TODO: coloque aqui o seu código-solução.
-    
-    // TODO: substitua o retorno de acordo com a solução. Isso é somente um STUB temporário.
+    for (int cont = *first; cont < *last; cont++)
+    {
+      if (cont <= 0)
+      {
+        
+      }
+    }
     return nullptr;
 }
