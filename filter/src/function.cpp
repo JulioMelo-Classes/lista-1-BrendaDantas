@@ -12,14 +12,3 @@
  * @param last Pointer just past the last valid value of the range we want to filter.
  * @return a pointer to the new 'logical' end of the array.
  */
-int * filter( int * first, int * last )
-{
-    for (int cont = *first; cont < *last; cont++)
-    {
-      if (cont <= 0)
-      {
-        
-      }
-    }
-    return nullptr;
-}
