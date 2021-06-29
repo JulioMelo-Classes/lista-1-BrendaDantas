@@ -3,6 +3,8 @@ using std::cout;
 using std::cin;
 using std::endl;
 
+/*ok! boa ideia usar o cin duas vezes com o operador and
+  fica mais claro, na minha opinião, do que fazer cin >> std::ws >> valor1 >> std::ws >> valor2*/
 int main (void) 
 {
   int valor1, valor2, cont = 0, soma = 0;

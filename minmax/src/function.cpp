@@ -1,6 +1,9 @@
 #include "function.h"
 #include <cstddef>
 
+/*
+ok
+*/
 std::pair<int,int> min_max( int V[], size_t n )
 {
    int maior = V[0];

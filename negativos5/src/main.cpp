@@ -2,9 +2,13 @@
 using std::cin;
 using std::cout;
 
+/*
+80%
+*/
 int main(void)
 {
-  int valores[5], cont0, cont1;
+  /*mais um problema de inicialização, cont1 neste caso*/
+  int valores[5], cont0, cont1 = 0;
  
   for (cont0 = 0; cont0 < 5; cont0++)
   {

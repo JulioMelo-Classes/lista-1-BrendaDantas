@@ -1,5 +1,6 @@
 #include "function.h"
 
+/*80%*/
 std::vector<unsigned int> fib_below_n( unsigned int n )
 {
 
@@ -9,6 +10,8 @@ std::vector<unsigned int> fib_below_n( unsigned int n )
     return sequencia;  
   }
 
+  /*essa condição aqui não é acondição de parada para esse problema, mas ela funciona pq fib(n) <= n para n>1
+    por isso vou descontar 20%*/
   for (int cont = 0; cont < n; cont++) 
   {
     if (sequencia.size() >=1 && sequencia.back() >= n)
